@@ -1,0 +1,213 @@
+@import "https://sj.oa.gg/lib/ej_v2.css";
+
+body, ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#wrap {
+    width: 1540px;
+    margin: 0 auto;
+}
+
+.img-box::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.img-box {
+    float: left;
+}
+
+.table-box::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.table-box {
+    float: left;
+    width: 1050px;
+    padding:0 10px 10px;
+   border:1px solid #bbb;
+   background:#efefec;
+   border-radius:0.3em;
+}
+
+.top-button-box::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.top-button-box {
+    width: 1232px;
+    display: block;
+}
+
+.top-button-box ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.top-button-box ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 14px 0;
+}
+
+
+
+table {
+    width:100%;
+    /* background-color:#FFFFB3 ; */
+}
+
+.change-box {
+    display:none;
+}
+
+.change-box.active {
+    display:block;
+}
+
+.table-box table th {
+    font-size:14px;
+    text-align:left;
+    padding-left:40px;
+}
+
+.table-box table td {
+    font-size:12px;
+}
+
+.table-box table td select {
+    height:26px;
+    width:74px;
+}
+
+.table-box table td input[type="text"] {
+   
+    width:180px;
+    height:26px;
+    margin-left:20px;
+}
+
+.table-box table td .text001 {
+    width:180px;
+    height:26px;
+    position:relative;
+    right:20px;
+}
+
+.table-box table td input[type="radio"] {
+    width:14px;
+    position:relative;
+    top:3px;
+}
+
+.table-box table td label {
+    font-size:12px;
+    padding-left:8px;
+}
+
+.table-box table td .cal {
+    padding-left:10px;
+    position:relative;
+    top:3px;
+}
+
+.table-box table td .cal01 {
+    position:relative;
+    right:13px;
+    top:3px;
+}
+
+.table-box table td .span001 {
+    position:relative;
+    right:10px;
+}
+
+.table-box table td a .sch01 {
+    padding-left:10px;
+    position:relative;
+    top:3px;
+}
+
+.table-box table td span {
+    padding-left:1px;
+    position:relative;
+}
+
+.ft-ct-box {
+    display:block;
+    width:100%;
+    background-color:#cbcbcb;
+}
+
+.ft-ct-box::after {
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.ft-ct-box > div {
+    float:left;
+}
+
+.ft-ct-box > div > ul > li:nth-child(1) {
+    font-size:14px;
+    padding-left:40px;
+}
+
+.ft-ct-box > div > ul > li:nth-child(2) {
+    padding-left:20px;
+}
+
+.ft-ct-box > div > ul > li:nth-child(2) > input[type="text"] {
+  /*   border:none;
+    padding:4px 0;
+    position:relative;
+    top:-1px; */
+    
+}
+
+.ft-ct-box > div:nth-child(2) {
+    float:right;
+}
+
+.ft-ct-box ul::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.ft-ct-box li {
+    float:left;
+    padding:9.5px 0;
+}
+
+.ft-ct-box .ft-bt-arrow {
+    margin-top:2px;
+    margin-right:15px;
+}
+
+button {
+    color:white;
+    background-color:#003a76;
+    border:none;
+    width:70px;
+    height:24px;
+    line-height:24px;
+    font-size:12px;
+    margin-left:20px;
+}
